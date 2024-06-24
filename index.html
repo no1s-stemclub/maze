@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container" style="position:relative;margin-left:auto;margin-right:auto;"></div>
+
+    <div style="font-size:50px;display:flex;align-items: center;justify-content:center">
+        <div><span id="left">⏪</span></div>
+        <div><span id="up">🔼</span><br><span id="down">🔽</span></div>
+        <div><span id="right">⏩</span></div>
+    </div>
+    <div id="timer" style="font-size:40px"></div>
+    <div style="display:flex;align-items: center;justify-content:center">
+        <form action="index.html" method="get">
+        x:<input type="range" id="drawwidth" min="1" max="50" name="width" value="10">
+        y:<input type="range" id="drawheight" min="1" max="50" name="height" value="10">
+        size:<input type="range" id="drawsize" min="1" max="50" name="size" value="30">
+        <button type="submit">再描画</button>
+        </form>
+    </div>
+    <script src="./maze.js"></script>
+</body>
+
+</html>
