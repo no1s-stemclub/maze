@@ -4,6 +4,7 @@ let org_size = 30;
 let gameover = false;
 let currentX = 1;
 let currentY = 1;
+let test1 = 1;
 
 let queryString = window.location.search;
 const queryObject = new Object();
